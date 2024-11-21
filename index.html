@@ -9,24 +9,20 @@
         body {
             margin: 0px;
             padding: 0px;
-            animation: bgChange 1.5s infinite alternate;
+            animation: bgChange 1s infinite alternate;
             background: #F6699E;
         }
 
         @keyframes bgChange {
             0% {
-                background: #F6699E;
+                background: #000;
             }
 
-            25% {
-                background: limegreen;
+            50% {
+                background-image: url(images/apt_logo_back.svg);
             }
 
-            75% {
-                background:turquoise;
-            }
-
-            100% {background:#F6699E;}
+            100% {background:#000;}
         }
 
         .container {
@@ -45,7 +41,7 @@
 <body>
     <div class="container">
         <a href="https://www.blackpinkmusic.com/">
-            <img src="images/apt.svg" alt="로제의 아파트 이미지">
+            <img src="images/apt_logo.svg" alt="로제의 아파트 이미지">
         </a>
     </div>
 </body>
